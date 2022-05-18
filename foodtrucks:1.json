@@ -29,7 +29,7 @@
       "memoryReservation": 128,
       "volumesFrom": [],
       "stopTimeout": null,
-      "image": "809133419045.dkr.ecr.us-east-1.amazonaws.com/foodtrucks-repo",
+      "image": "809133419045.dkr.ecr.us-east-1.amazonaws.com/foodtrucks",
       "startTimeout": null,
       "firelensConfiguration": null,
       "dependsOn": null,
@@ -46,7 +46,7 @@
       "dockerLabels": null,
       "systemControls": null,
       "privileged": null,
-      "name": "foodtrucks-repo"
+      "name": "foodtrucks"
     }
   ],
   "placementConstraints": [],
@@ -56,8 +56,8 @@
     "EXTERNAL",
     "EC2"
   ],
-  "taskDefinitionArn": "arn:aws:ecs:us-east-1:809133419045:task-definition/foodtrucks-task-definition:1",
-  "family": "foodtrucks-task-definition",
+  "taskDefinitionArn": "arn:aws:ecs:us-east-1:809133419045:task-definition/foodtrucks:1",
+  "family": "foodtrucks",
   "requiresAttributes": [
     {
       "targetId": null,
