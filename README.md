@@ -8,18 +8,18 @@ SF Food Trucks
 This is a fun application to accompany the docker curriculum. The app is built with Flask on the backend and Elasticsearch is the search engine powering the searches. The front-end is built with React and the beautiful maps are courtesy of Mapbox.
 
 
-#### Application Architecture
+## Application Architecture
 The application is comprised of two services:
 
 (1) A Python Server which serves both data and a JS based UI
 
 (2) An ElasticSearch Server which hosts the data and allows searching
 
-#### Configuration
+## Configuration
 The ElasticSearch connection details are hard-coded into app.py
 The Flask Server runs on port 5000
 
-#### Building & Running the app
+## Building & Running the app
 In order to build the app you will need:
 
 (1) Python
@@ -28,7 +28,7 @@ In order to build the app you will need:
 
 (3) NodeJS & NPM
 
-### Steps:
+## Steps:
 
 (1) npm install
 
